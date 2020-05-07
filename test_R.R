@@ -3,4 +3,4 @@ str(dataset)
 plot(dataset$Valor, dataset$Custo)
 
 library('ggplot2')
-qplot(Valor, Custo, data = dataset, geom = "point")
+qplot(Valor, Custo, data = dataset, geom = "point", main = "plot de teste")
